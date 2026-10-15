@@ -1,3 +1,18 @@
+# MAX Messenger Prototype (GREEN-API Integration)
+
+Веб-интерфейс для отправки и получения текстовых сообщений, в max.
+
+## Технологический стек
+* React 18+ (Hooks, Components decomposition)
+* Vite (Сборщик проекта)
+* GREEN-API (Методы: `SendMessage` и Long Polling `ReceiveNotification`)
+
+## Запуск проекта
+1. Клонировать репозиторий: `git clone <ссылка_на_ваш_репозиторий>`
+2. Установить зависимости: `npm install`
+3. Запустить локальный сервер: `npm run dev`
+4. Ввести свои учетные данные `idInstance` и `apiTokenInstance` из панели GREEN-API.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
